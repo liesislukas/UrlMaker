@@ -9,7 +9,7 @@ class UrlMaker extends Plugin
 
     public function __construct()
     {
-        return $this->reset();;
+        return $this->reset();
     }
 
     public function reset()
