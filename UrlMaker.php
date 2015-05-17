@@ -4,6 +4,7 @@ use Phalcon\Mvc\User\Plugin;
 
 class UrlMaker extends Plugin
 {
+    // some vars that should always be removed from $_GET query
     public $removeAlwaysVar = array('_url');
     public $urlParts = array();
 
